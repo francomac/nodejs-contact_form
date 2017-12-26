@@ -52,10 +52,10 @@ app.post('/send', (req, res) => {
 
     // setup email data with unicode symbols
     let mailOptions = {
-        from: '"francomac.com Contact " <franco.mcarballo@outlook.com>', // sender address
-        to: 'franco.mcarballo@outlook.com', // list of receivers
-        subject: 'welcom from francomac!', // Subject line
-        text: 'Hello world?', // plain text body
+        from: '"" <>', // sender email address
+        to: '', // list of receivers
+        subject: 'welcome from your-name!', // Subject line
+        text: 'Hello there', // plain text body
         html: output // html body
     };
 
